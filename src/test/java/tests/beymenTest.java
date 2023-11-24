@@ -152,6 +152,7 @@ public class beymenTest {
 
         ReusableMethods.waitFor(2);
         productPage.removeButton.click();
+        ReusableMethods.waitFor(2);
         productPage.emptymessageTitle.isDisplayed();
 
         log.info("Ürün sepetten silinerek sepetin boş olduğu kontrol edildi");

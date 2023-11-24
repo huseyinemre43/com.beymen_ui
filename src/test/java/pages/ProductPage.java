@@ -33,9 +33,6 @@ public class ProductPage {
     @FindBy(id="quantitySelect0-key-0")
     public WebElement selectButton;
 
-    @FindBy(xpath = "//div[@class='m-basket__quantity']")
-    public WebElement basketQuantity;
-
     @FindBy(id ="removeCartItemBtn0-key-0")
     public WebElement removeButton;
 
